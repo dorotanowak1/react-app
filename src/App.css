@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+input[type="text"] {
+  border: 0;
+  border-bottom: solid 1px #1c3359;
+  width: 30%;
+  padding-bottom: 4px;
+  color: black !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+input[type="text"] {
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #fff inset;
+  -webkit-text-fill-color: #1c3359;
+}
+
+button {
+  border: 1px solid black;
+  padding: 10px 40px;
+  margin: 10px 20px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #fff;
+  font-weight: 200;
+}
+
+button:active {
+  outline: none;
+}
+
+h2 {
+  padding-top: 150px;
+}
+
+h4 {
+  font-weight: 200px;
+  padding: 30px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
